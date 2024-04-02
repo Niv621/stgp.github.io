@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#fefefe;
+    color: #0d0c0c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem; 
+}
+/* Header css */
+header {
+    background-color: rgb(48, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    box-shadow: 0px 5px 10px;
+    z-index: 1;
+}
+header a{
+    color: #ff2525;
+    text-decoration: none;
+}
+header a h1 {
+    margin: 0px;
+    font-family: Courgette, cursive;
+    font-weight: 900;
+    text-shadow: rgb(255 255 255) 0px 2px 3px;
+    color: rgb(255 3 0);
+}
+header a span{
+    display: none;
+}
+header ul{
+    margin: 0 !important;
+    list-style: none;
+    display: flex;
+}
+header ul li {
+    border-right: 1px solid;
+}
+header ul li:last-child {
+    border-right:none;
+}
+header ul li:first-child {
+    border-left: 1px solid;
+}
+header ul li a {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Hero Section */
+.heroSection {
+    background-image: linear-gradient(rgb(48 22 22 / 40%), rgb(48 22 22)), url(../images/slider_img1.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 91vh;
+    flex-direction: column;
+    font-family: Courgette, cursive;
+}
+.heroSection h1 {
+    font-family: Courgette, cursive;
+    font-weight: 900;
+    text-shadow: rgb(48 22 22) 0px 2px 3px;
+    color: rgb(255, 3, 0);
+    font-size: 400%;
+    text-align: center;
+}
+.heroSection h3{
+    color: #fff;
+}
+.workFor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.workBox {
+    width: 200px;
+    height: 150px;
+    background: #301616;
+    border: 1px solid #ff0300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px #512d2d;
+    font-family: Courgette, cursive;
+    color: #fff;
+}
+.workBox:first-child{
+    border-radius: 30px 0px 0px 0px;
+}
+.workBox:last-child {
+    border-radius: 0px 0px 30px 0px;
+}
+.iconstyle {
+    font-size: 400%;
+    color: #ff0300;
+    text-shadow: 3px 2px 1px #000;
+}
+.boxtitle{
+    background: #301616;
+    margin: 0;
+    color: #fff;
+    padding: 3px 20px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* Events */
+
+.eventSection{
+    padding: 50px 5px;
+}
+.sectionTitle {
+    text-align: center;
+    border-bottom: 2px solid;
+    color: #ff0300;
+}
+.boxHolder{
+    display: flex;
+}
+.eventBox {
+    border: 1px solid #ff0300;
+    margin: 10px;
+    border-radius: 10px;
+}
+.eventBox h5 {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+.eventBox img{
+    width: 100%;
+    height: 200px;
+}
+.eventBox p{
+    margin: 0;
+    padding: 5px;
+    text-align: justify;
+    margin: 0;
+}
+
+/* partnerSection */
+
+.partnerSection{
+    padding: 50px 5px;
+}
+marquee img{
+    width: auto;
+    height: 80px;
+    margin: 5px;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    background: #0d0c0c;
+    color: #fefefe;
+}
+footer p {
+    margin: 0px;
+}
+footer p a{
+    color: #fefefe;
+    text-decoration: none;
+}
+footer ul {
+    list-style: none;
+    margin: 0px;
+    display: flex;
+}
+footer ul li{
+    margin: 5px;
+    padding: 2px;
+}
+footer ul li a{
+    color: #fff;
+    font-size: 18px;
+}
